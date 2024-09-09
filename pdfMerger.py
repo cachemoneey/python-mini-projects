@@ -1,3 +1,5 @@
+# pip3 install PyPDF2
+
 import PyPDF2
 import os
 
