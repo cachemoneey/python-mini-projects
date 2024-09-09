@@ -1,3 +1,5 @@
+# pip3 install pytube
+
 from pytube import YouTube
 
 try:
