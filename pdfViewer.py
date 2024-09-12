@@ -15,7 +15,6 @@ def browseFiles():
     filename = filedialog.askopenfilename(initialdir=os.getcwd(),
                                           title="Select PDF File",
                                           filetypes=(("PDF File",".pdf"),
-                                          ("PDF File",".pdf"),
                                           ("PDF File",".PDF"),
                                           ("All File",".txt")))
 
