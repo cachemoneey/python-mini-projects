@@ -24,8 +24,8 @@ def customize():
         root.config("white")
         button_mode=True
 
-on = PhotoImage(file="light.png")
-off = PhotoImage(file="dark.png")
+on = PhotoImage(file="light-dark-toggle/light.png")
+off = PhotoImage(file="light-dark-toggle/dark.png")
 
 button = Button(root, image=on, bd=0, bg="white", activebackground="white", command=customize)
 button.pack(padx=50, pady=50)
