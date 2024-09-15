@@ -21,7 +21,7 @@ def customize():
         button_mode=False
     else:
         button.config(image=on, bg="white", activebackground="white")
-        root.config("white")
+        root.config(bg="white")
         button_mode=True
 
 on = PhotoImage(file="light-dark-toggle/light.png")
