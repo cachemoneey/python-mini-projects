@@ -62,8 +62,8 @@ def clear():
     addressEntry.delete(1.0, END)
 
 # icon
-# icon_image = PhotoImage(file="")
-# root.iconphoto(False, icon_image)
+icon_image = PhotoImage(file="")
+root.iconphoto(False, icon_image)
 
 # heading
 Label(root, text="Please fill out this entry form:", font="Arial 13", bg="#326273", fg="#fff").place(x=20, y=20)
