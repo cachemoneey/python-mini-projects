@@ -1,0 +1,13 @@
+{
+    "initial_budget": 1000.0,
+    "expenses": [
+        {
+            "description": "office desk",
+            "amount": 200.0
+        },
+        {
+            "description": "gamin chair",
+            "amount": 100.0
+        }
+    ]
+}
